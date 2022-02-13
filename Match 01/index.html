@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <title>FizzBuzz</title>
+  <style>
+    body {
+      padding: 32px;
+    }
+    h1, h2 {
+      margin: 0 0 1em;
+    }
+  </style>
+  <body>
+    <h1>FizzBuzz</h1>
+    <h2></h2>
+    <div id="root"></div>
+    <script src="submissions/anurag.lingam.js"></script>
+    <script>
+      const n = 1 + Math.floor(Math.random() * 99);
+      const result = solution(n);
+      document.querySelector("h2").innerText = `n = ${n}`;
+      document.getElementById("root").innerText = result;
+    </script>
+  </body>
+</html>
