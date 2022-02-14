@@ -1,5 +1,5 @@
 function solution() {
-  return `when i find myself in times of trouble
+return `when i find myself in times of trouble
 mother mary comes to me
 speaking words of wisdom, let it be
 and in my hour of darkness
@@ -34,5 +34,6 @@ let it be, yeah, let it be
 oh, there will be an answer, let it be
 let it be, let it be
 let it be, yeah, let it be
-whisper words of wisdom, let it be`;
+whisper words of wisdom, let it be`; 
+
 }
